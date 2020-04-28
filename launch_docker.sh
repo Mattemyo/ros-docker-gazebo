@@ -16,6 +16,6 @@ nvidia-docker run -it \
 -e LOCAL_USER_ID=`id -u $USER` \
 -e LOCAL_GROUP_ID=`id -g $USER` \
 -e LOCAL_GROUP_NAME=`id -gn $USER` \
- ros-kinetic-gazebo7
+ ros-kinetic-gazebo9
 
 xhost -local:root
