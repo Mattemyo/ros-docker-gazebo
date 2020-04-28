@@ -21,7 +21,7 @@ This repository contain the Dockerfile. Move into the directory containing the f
 
 The command below will **create** the container from the base image if it doesn't exist and log you in. 
 
-    docker build -t ros-kinetic-gazebo7 .
+    docker build -t ros-kinetic-gazebo9 .
 
 ## Step 4: Start the container
 
